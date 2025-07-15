@@ -65,7 +65,7 @@ const HomeBanner = () => {
   };
 
   return (
-    <div className="relative w-full overflow-hidden bg-white mt-14 sm:mt-24 md:mt-20">
+    <div className="relative w-full overflow-hidden bg-white mt-12 sm:mt-20 md:mt-20">
       <div className="relative w-full h-48 sm:h-64 md:h-80 lg:h-96 xl:h-[500px]">
         <div
           className="relative w-full h-full mt-[49px] cursor-grab active:cursor-grabbing"

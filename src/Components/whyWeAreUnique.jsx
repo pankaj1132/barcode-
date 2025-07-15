@@ -2,7 +2,7 @@ import { unique } from '../assets'; // Assuming you have an image in your assets
 
 const  WhyWeAreUnique = () => {
   return (
-    <div className="py-12 sm:py-16 md:py-20 lg:py-24 bg-white">
+    <div className="py-10 sm:pt-1.5 md:py-9 lg:py-9 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8 lg:gap-12">
           {/* Text Section - First on mobile, left side on desktop */}

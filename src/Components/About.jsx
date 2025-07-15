@@ -2,7 +2,7 @@ import { aboutimage } from '../assets'; // Assuming you have an image in your as
 
 const About = () => {
   return (
-    <div className="py-12 sm:py-16 md:py-20 lg:py-24 bg-white">
+    <div className="py-12 sm:py-16 md:py-20 lg:pt-9 lg:pb-3 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-8 lg:gap-12">
           {/* Text Section - First on mobile, left side on desktop */}

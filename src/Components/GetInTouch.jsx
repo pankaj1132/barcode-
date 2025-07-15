@@ -24,7 +24,7 @@ const GetInTouch = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-20 py-16 bg-white relative overflow-hidden">
+    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-20 pt-14 lg:pb-0.5 md:pb-1.5 pb-3.5 bg-white relative overflow-hidden">
       <div className="relative max-w-xl md:max-w-lg lg:max-w-xl z-10">
         <h1 className="text-2xl md:text-3xl font-serif mb-6 leading-snug">
           <span className="text-[#0f3d7a]">

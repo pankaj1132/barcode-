@@ -9,6 +9,7 @@
     margin-left: auto;
     margin-right: auto;
   padding: 60px 20px;
+  padding-bottom: 0px;
   background-color:white;
 }
 
@@ -100,6 +101,8 @@
   max-width: 1200px;
   margin: 60px auto;
   padding: 60px 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-color: white;
 }
 
@@ -219,7 +222,9 @@
   .gallery-header h2 {
     font-size: 1.8rem;
   }
-  
+  .gallery-container {
+    padding: 10px 15px;
+  }
   .image-wrapper {
     height: 160px;
   }
