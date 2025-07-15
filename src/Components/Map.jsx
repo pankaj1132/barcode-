@@ -25,8 +25,9 @@ const Map = () => {
 
   // Shop location (replace with your actual shop coordinates)
   const shopLocation = {
-    lat: 28.63168, // Example: New York City
-    lng: 77.06625,
+    lat: 28.6317539, // Example: New York City
+    lng: 77.0662918
+,
     name: "S.R.S.B. Barcode Solutions",
     address: "A-311, Second Floor, Vikas Puri, New Delhi-110018, Delhi, India"
   };
