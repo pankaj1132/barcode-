@@ -24,7 +24,7 @@ const GetInTouch = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center px-6 md:px-20 pt-14 lg:pb-0.5 md:pb-1.5 pb-3.5 bg-white relative overflow-hidden">
+    <div className="min-h-[80vh] flex flex-col lg:flex-row items-center justify-center px-6 md:px-20 pt-14 lg:pb-0.5 md:pb-1.5 pb-3.5 bg-white relative overflow-hidden">
       <div className="relative max-w-xl md:max-w-lg lg:max-w-xl z-10">
         <h1 className="text-2xl md:text-3xl font-serif mb-6 leading-snug">
           <span className="text-[#0f3d7a]">
@@ -90,7 +90,7 @@ const GetInTouch = () => {
       <form 
         onSubmit={handleSubmit}
         aria-label="Get A Free Consultation Form" 
-        className="relative z-10 bg-white rounded-3xl p-8 mt-12 md:mt-0 md:ml-16 w-full max-w-md shadow-lg border border-gray-200"
+        className="relative z-10 bg-white rounded-3xl p-8 mt-12 lg:mt-0 lg:ml-16 w-full max-w-md shadow-lg border border-gray-200"
       >
         <h2 className="text-center text-lg mb-6 font-serif text-black">
           Get A Free Consultation!

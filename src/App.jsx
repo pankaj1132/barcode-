@@ -1,33 +1,25 @@
 
-import Navbar from './Components/Navbar';
-import Map from './Components/Map';
-import Footer from './Components/Footer';
-import GetInTouch from './Components/GetInTouch';
-import About from './Components/About';
-import HomeBanner from './Components/HomeBanner';
-import WhatWeDo from './Components/WhatWeDo';
-import Gallery from './Components/Gallery';
-import TopHeader from './Components/TopHeader';
-import WhyWeAreUnique from './Components/whyWeAreUnique';
-
-
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Navbar from './Components/Navbar'
+import Footer from './Components/Footer'
+import TopHeader from './Components/TopHeader'
+import Home from './pages/Home'
+import Contact from './pages/Contact'
+import AboutPage from './pages/AboutPage'
 
 const App = () => {
   return (
-   <>
-   <TopHeader />
-    <Navbar />
-    <HomeBanner />
-    <About />
-    <Gallery />
-    <WhyWeAreUnique />
-    <WhatWeDo />
-    <GetInTouch />
-    <Map />
-    <Footer/>
-    
-  
-   </>
+    <Router>
+      <TopHeader />
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      <Footer />
+    </Router>
   )
 }
 
